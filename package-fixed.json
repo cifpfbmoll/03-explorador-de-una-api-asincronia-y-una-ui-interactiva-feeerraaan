@@ -1,0 +1,57 @@
+{
+  "name": "pokemon-explorer",
+  "version": "1.0.0",
+  "description": "Explorador de Pokémon con Angular - API asíncrona y UI interactiva",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^18.2.7",
+    "@angular/common": "^18.2.7",
+    "@angular/compiler": "^18.2.7",
+    "@angular/core": "^18.2.7",
+    "@angular/forms": "^18.2.7",
+    "@angular/platform-browser": "^18.2.7",
+    "@angular/platform-browser-dynamic": "^18.2.7",
+    "@angular/router": "^18.2.7",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.2.7",
+    "@angular/cli": "^18.2.7",
+    "@angular/compiler-cli": "^18.2.7",
+    "@types/jasmine": "~5.1.4",
+    "@types/node": "^20.14.9",
+    "jasmine-core": "~5.1.2",
+    "karma": "~6.4.4",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.5.4"
+  },
+  "keywords": [
+    "pokemon",
+    "angular",
+    "api",
+    "pokeapi",
+    "explorer",
+    "typescript",
+    "signals"
+  ],
+  "author": "Ferran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feeerraaan/pokemon-explorer"
+  }
+}
